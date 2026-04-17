@@ -22,4 +22,4 @@ These are TEST SSN, Credit Cards, and emails used for testing purposes
 909-09-0909 TESTLASTNAME18 test18@example.com CC: 6011 9090 9090 9090
 100-10-0100 TESTLASTNAME19 test19@example.com CC: 3400 1001 0010 0100
 200-20-0200 TESTLASTNAME20 test20@example.com CC: 3700 2002 0020 0200
-Test Scenario: Standard PUT Request
+Test Scenario: SSL Bypass (verify=False)
