@@ -43,4 +43,4 @@ Contains: SSN, Credit Cards (Visa, MC, Amex, Discover), Emails, and Names.
 654-65-6543 GRACE HOPPER amazing_grace@navy.mil CC: 4111 5555 6666 7777
 789-78-7890 HEDY LAMARR lamarr.h@frequency.com CC: 3782 0000 1111 222
 098-09-0987 ROSALIND FRANKLIN helix@dna.org CC: 5412 0000 9999 8888
-Test Scenario: Standard PUT Request
+Test Scenario: SSL Bypass (verify=False)
