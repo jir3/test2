@@ -1,7 +1,8 @@
-INTERNAL CONFIDENTIAL - NETSKOPE GAP ANALYSIS TEST
-Test data.
-These are TEST SSN, Credit Cards, and emails used for testing purposes
+INTERNAL CONFIDENTIAL - NETSKOPE GAP ANALYSIS TEST - EXTENDED PII
+Test data for DLP Evasion and Detection.
+Contains: SSN, Credit Cards (Visa, MC, Amex, Discover), Emails, and Names.
 
+--- SSN / Name / Email / Credit Card ---
 111-11-1111 TESTLASTNAME01 test01@example.com CC: 4111 1111 1111 1111
 222-22-2222 TESTLASTNAME02 test02@example.com CC: 4222 2222 2222 2222
 333-33-3333 TESTLASTNAME03 test03@example.com CC: 4333 3333 3333 3333
@@ -22,4 +23,24 @@ These are TEST SSN, Credit Cards, and emails used for testing purposes
 909-09-0909 TESTLASTNAME18 test18@example.com CC: 6011 9090 9090 9090
 100-10-0100 TESTLASTNAME19 test19@example.com CC: 3400 1001 0010 0100
 200-20-0200 TESTLASTNAME20 test20@example.com CC: 3700 2002 0020 0200
-Test Scenario: SSL Bypass (verify=False)
+123-45-6789 ALICE SMITH alice.smith@provider.com CC: 4539 1234 5678 9012
+987-65-4321 BOB JOHNSON bob.j@enterprise.org CC: 5412 8765 4321 0987
+456-78-9012 CHARLIE BROWN c.brown@gmail.com CC: 3782 4567 8901 234
+135-79-2468 DANA SCULLY agent_scully@fbi.gov CC: 6011 1111 2222 3333
+246-80-1357 FOX MULDER i_want_to_believe@fbi.gov CC: 5105 1029 3847 5610
+369-12-1518 ELLEN RIPLEY ripley@nostromo.space CC: 4000 0000 0000 0000
+147-25-8369 SARAH CONNOR connor.s@cyberdyne.com CC: 4444 3333 2222 1111
+258-36-9147 JOHN DOE jdoe@placeholder.net CC: 5555 4444 3333 2222
+314-15-9265 JANE DOE jane.doe@placeholder.net CC: 3411 2222 3333 444
+271-82-8182 ALAN TURING aturing@bletchley.park CC: 5100 1111 2222 3333
+161-80-3398 MARIE CURIE m.curie@sorbonne.edu CC: 4111 2222 3333 4444
+123-12-1234 NIKOLA TESLA tesla.n@inventor.io CC: 6011 1234 5678 9012
+432-43-4321 THOMAS EDISON edison@dc.com CC: 5200 1234 5678 9012
+567-56-5678 ISAAC NEWTON apple@gravity.uk CC: 3700 1234 5678 901
+876-87-8765 CHARLES DARWIN darwin@beagle.org CC: 4222 1234 5678 9012
+901-90-9012 GREGOR MENDEL peas@heredity.edu CC: 5100 5678 1234 9012
+345-34-3456 ADA LOVELACE ada@analytical.engine CC: 4026 1111 2222 3333
+654-65-6543 GRACE HOPPER amazing_grace@navy.mil CC: 4111 5555 6666 7777
+789-78-7890 HEDY LAMARR lamarr.h@frequency.com CC: 3782 0000 1111 222
+098-09-0987 ROSALIND FRANKLIN helix@dna.org CC: 5412 0000 9999 8888
+Test Scenario: Standard PUT Request
